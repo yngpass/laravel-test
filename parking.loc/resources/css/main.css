@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: rgb(211, 211, 211) !important;
+}
+
+thead {
+    font-weight: bold;
+}
+
+.w-5 {
+    display: none;
+}
+
+.page-link {
+    color: black !important;
+}
+
+.page-item:hover .page-link {
+    background-color: rgb(240, 240, 240) !important;
+}
+
+.page-item.active .page-link{
+    color: white !important;
+    background-color: black !important;
+    border-color: black;
+}
+
+.page-item.active:hover .page-link {
+    background-color: black !important;
+}
+
+.page-item.disabled:hover .page-link{
+    background-color: white !important;
+}
+
+.btn-icon {
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.delete-car {
+    cursor: pointer;
+}
